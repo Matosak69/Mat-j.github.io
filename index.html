@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matěj.github.io</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome Matěj</h1>
+</header>
+
+<section>
+    <h2>About Matěj</h2>
+    <p>Matěj který ho má dlouhatej</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>You can reach me at: <a href="admatous@gmail.com">example@example.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; Matěj ho má dlouhatej</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celá Obrazovka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        #fullScreenContent {
+            display: none; /* Skryjeme obsah, dokud není zobrazen */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Poloprůhledné pozadí */
+            color: white;
+            text-align: center;
+            padding-top: 20%;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Celá Obrazovka</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f4f4f4;
+            }
+            #fullScreenContent {
+                display: none; /* Skryjeme obsah, dokud není zobrazen */
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8); /* Poloprůhledné pozadí */
+                color: white;
+                text-align: center;
+                padding-top: 20%;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <button id="toggleButton">Zobrazit Matějův Obsah</button>
+    
+    <div id="fullScreenContent">
+        <h1>Matěj ho má dlouhatej</h1>
+        <p>Toto je obsah, který je přísně tajný.</p>
+        <button id="closeButton">Zavřít</button>
+    </div>
+    
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const fullScreenContent = document.getElementById('fullScreenContent');
+        const closeButton = document.getElementById('closeButton');
+    
+        // Funkce pro zobrazení obsahu na celou obrazovku
+        toggleButton.addEventListener('click', () => {
+            fullScreenContent.style.display = 'block';
+        });
+    
+        // Funkce pro zavření obsahu
+        closeButton.addEventListener('click', () => {
+            fullScreenContent.style.display = 'none';
+        });
+    </script>
+    
+    </body>
+    </html>
